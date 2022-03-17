@@ -10,7 +10,7 @@ async def root():
 
 @app.get("/diff/")
 async def get_diff():
-    date_one = datetime(2021, 5, 29)
+    date_one = datetime(2006, 7, 28)
     date_two = datetime.now()
 
     diff = relativedelta.relativedelta(date_two, date_one)
